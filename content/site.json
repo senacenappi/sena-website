@@ -1,0 +1,237 @@
+{
+  "name": "Sena",
+  "description": "Paintings, sculpture and installations by Sena, in Hanji, Muk, silk and stoneware.",
+  "about": "",
+  "cv": [
+    {
+      "heading": "Born",
+      "entries": [
+        {
+          "year": "1998",
+          "text": "Busan, South Korea"
+        }
+      ]
+    },
+    {
+      "heading": "Education",
+      "entries": [
+        {
+          "year": "2025–2027",
+          "text": "MFA, School of the Art Institute of Chicago (SAIC), Department of Ceramic Arts, Chicago, USA"
+        },
+        {
+          "year": "2022–2024",
+          "text": "MFA, Ewha Womans University, Department of Ceramic Arts, Graduate School of Art and Design, Seoul, South Korea"
+        },
+        {
+          "year": "2017–2021",
+          "text": "BFA, Ewha Womans University, Department of Ceramic Arts, College of Art and Design; double major in History of Art, College of Liberal Arts, Seoul, South Korea"
+        }
+      ]
+    },
+    {
+      "heading": "Solo exhibitions",
+      "entries": [
+        {
+          "year": "2026",
+          "text": "Where the Surface Unfolds, SITE Gallery, Chicago, USA"
+        },
+        {
+          "year": "2026",
+          "text": "Sena Park, Gallery 1992, Chicago, USA"
+        },
+        {
+          "year": "2026",
+          "text": "Panorama, Gallery 1992, Chicago, USA"
+        },
+        {
+          "year": "2023",
+          "text": "Paying Attention to This Work, Ewha Art Center, Seoul, South Korea"
+        }
+      ]
+    },
+    {
+      "heading": "Group exhibitions",
+      "entries": [
+        {
+          "year": "2026",
+          "text": "Chicago Project Pathway_Expanding Access to the Future of Work, NoMI_Park Hyatt Chicago, USA"
+        },
+        {
+          "year": "2026",
+          "text": "Substructure, Dubois Basement, Detroit, USA"
+        },
+        {
+          "year": "2026",
+          "text": "Researchers, The Jam Handy, Detroit, USA"
+        },
+        {
+          "year": "2026",
+          "text": "Home: a moving place, Oh Art Foundation, Chicago, USA"
+        },
+        {
+          "year": "2024",
+          "text": "Incorporated Korea Contemporary Ceramic Artist Association_Rising Star, Korean Craft Museum, Cheongju, South Korea"
+        },
+        {
+          "year": "2024",
+          "text": "face@echother, Art Space T-in, Incheon, South Korea"
+        },
+        {
+          "year": "2024",
+          "text": "陶:展, Hongmun Hall, Seoul, South Korea"
+        },
+        {
+          "year": "2023",
+          "text": "Questions to Question?, Ewha Art Center, Seoul, South Korea"
+        },
+        {
+          "year": "2023",
+          "text": "17th Contemporary Ceramic Art in Asia Exhibition, Yanggu Baekja Museum, Yanggu, South Korea"
+        },
+        {
+          "year": "2023",
+          "text": "19th Craft Art Trend Fair, COEX, Seoul, South Korea"
+        },
+        {
+          "year": "2022",
+          "text": "EUMC Fair, Ewha Mokdong Hospital Art Hall, Seoul, South Korea"
+        },
+        {
+          "year": "2022",
+          "text": "Loving with No Tail and No Head, Opening and Passing Each Other, WWW Space, Seoul, South Korea"
+        },
+        {
+          "year": "2022",
+          "text": "Art Furniture Upcycling Collaboration, Art Spoon Space, Seoul, South Korea"
+        },
+        {
+          "year": "2021",
+          "text": "Revolving Door, Ewha Art Pavilion, Seoul, South Korea"
+        },
+        {
+          "year": "2021",
+          "text": "Paying Attention to This Work, Ewha Art Center, Seoul, South Korea"
+        },
+        {
+          "year": "2019",
+          "text": "SangSang Exhibition, ECC Daesan Gallery, Seoul, South Korea"
+        },
+        {
+          "year": "2019",
+          "text": "Geuroo-jam, Ewha Art Pavilion, Seoul, South Korea"
+        },
+        {
+          "year": "2017",
+          "text": "Design Exhibition, Ewha Art Center, Seoul, South Korea"
+        }
+      ]
+    },
+    {
+      "heading": "Honors, awards and grants",
+      "entries": [
+        {
+          "year": "2025",
+          "text": "New Artist Society Scholarship, School of the Art Institute of Chicago, Chicago, USA"
+        },
+        {
+          "year": "2025",
+          "text": "Visionary Scholars Award, School of the Art Institute of Chicago, Chicago, USA"
+        },
+        {
+          "year": "2024",
+          "text": "Award for Ceramic Excellence_Rising Star Category, Incorporated Korea Contemporary Ceramic Artist Association, Cheongju, South Korea"
+        },
+        {
+          "year": "2023",
+          "text": "Paying Attention to This Work Award, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2023",
+          "text": "Research Assistant Scholarship, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2023",
+          "text": "Research Assistant Scholarship, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2022",
+          "text": "Excellence Ewha_Admissions Scholarship, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2022",
+          "text": "Excellence Ewha_Admissions Scholarship, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2021",
+          "text": "Paying Attention to This Work Award, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2021",
+          "text": "Top Academic Performance Scholarship, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2021",
+          "text": "College-Specific Scholarship, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2021",
+          "text": "Honor Student Award, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2019",
+          "text": "Honor Student Award, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2018",
+          "text": "Honor Student Award, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2017",
+          "text": "Honor Student Award, Ewha Womans University, Seoul, South Korea"
+        },
+        {
+          "year": "2017",
+          "text": "Honor Scholarship, Ewha Womans University, Seoul, South Korea"
+        }
+      ]
+    },
+    {
+      "heading": "Talks and public events",
+      "entries": [
+        {
+          "year": "2026",
+          "text": "GVSU Ceramic Forum 2026, Visiting Graduate Student Presentation, Grand Valley State University, Michigan, USA"
+        },
+        {
+          "year": "2026",
+          "text": "November (upcoming): “Nomadic Snail” publication release talk, SITE Gallery, Chicago, USA"
+        },
+        {
+          "year": "2026",
+          "text": "September: Artist talk, Gallery 1992, School of the Art Institute of Chicago, Department of Ceramic Arts, Chicago, USA"
+        },
+        {
+          "year": "2026",
+          "text": "March: Artist talk, Gallery 1992, School of the Art Institute of Chicago, Department of Ceramic Arts, Chicago, USA"
+        }
+      ]
+    },
+    {
+      "heading": "Publications",
+      "entries": [
+        {
+          "year": "2026",
+          "text": "“Nomadic Snail”, published by SITE Gallery, School of the Art Institute of Chicago, Chicago, USA"
+        },
+        {
+          "year": "2024",
+          "text": "“<FACE@CHOTHER>”, Monthly Ceramic Art (Korea), November 2024, vol. 344, pp. 116–119"
+        }
+      ]
+    }
+  ],
+  "contact_intro": "For acquisitions, exhibitions and loans, commissions, and press, write to Sena directly.",
+  "email": "senacenap@gmail.com",
+  "instagram": "sseenanappi"
+}

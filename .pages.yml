@@ -1,0 +1,136 @@
+# Editor settings for Pages CMS (https://app.pagescms.org).
+# This file decides what Sena sees in the editor. She never needs to open it.
+
+media:
+  input: media
+  output: /media
+  extensions: [jpg, jpeg, png, webp]
+  rename: safe
+
+content:
+  - name: works
+    label: Works
+    type: collection
+    path: content/works
+    format: json
+    filename: "{title}.json"
+    view:
+      fields: [order, title, year, hide]
+      primary: title
+      sort: [order, title, year]
+      default:
+        sort: order
+        order: asc
+    fields:
+      - name: order
+        label: Order
+        type: number
+        required: true
+        description: Works appear from lowest to highest. The site numbers them 01, 02, 03… in this order, so gaps are fine (10, 20, 30 makes it easy to slot a new piece in between).
+        options:
+          min: 0
+      - name: hide
+        label: Hide from the website
+        type: boolean
+        description: Tick to keep this work saved but off the site.
+      - name: title
+        label: Title
+        type: string
+        required: true
+      - name: title_ko
+        label: Original title (optional)
+        type: string
+        description: Shown under the English title, for example 유층혼시생도(流層混時生圖).
+      - name: year
+        label: Year
+        type: string
+        required: true
+      - name: medium
+        label: Medium
+        type: string
+        description: For example, Hanji (Korean mulberry paper), Muk (Korean ink)
+      - name: dimensions
+        label: Dimensions (inches)
+        type: string
+        description: For example, 36 × 36 in
+      - name: dimensions_cm
+        label: Dimensions (centimeters, optional)
+        type: string
+        description: For example, 91 × 91 cm. Shown in smaller text under the inches.
+      - name: image
+        label: Main photo
+        type: image
+        required: true
+        description: JPG or PNG. Any size is fine; the site shrinks photos automatically.
+        options:
+          path: media/works
+      - name: details
+        label: Detail photos (optional)
+        type: image
+        description: Close-ups shown under the main photo. Drag several in at once.
+        options:
+          path: media/works
+          multiple:
+            max: 12
+          unique: true
+      - name: statement_en
+        label: Statement (English)
+        type: text
+        description: Leave an empty line between paragraphs.
+      - name: statement_ko
+        label: Statement (한국어)
+        type: text
+        description: Optional. Visitors can switch between English and 한국어.
+
+  - name: site
+    label: About and contact
+    type: file
+    path: content/site.json
+    format: json
+    fields:
+      - name: name
+        label: Artist name
+        type: string
+        required: true
+        description: Shown at the top of every page.
+      - name: description
+        label: Short description for search engines
+        type: text
+        description: One sentence. Shows up in Google results and link previews.
+      - name: about
+        label: About text
+        type: text
+        description: Leave an empty line between paragraphs.
+      - name: cv
+        label: Resume
+        type: object
+        description: Add a section for each heading (Education, Exhibitions, Awards…), then add its lines.
+        list:
+          collapsible:
+            collapsed: true
+            summary: "{heading}"
+        fields:
+          - name: heading
+            label: Section heading
+            type: string
+          - name: entries
+            label: Lines
+            type: object
+            list: true
+            fields:
+              - name: year
+                label: Year
+                type: string
+              - name: text
+                label: Text
+                type: string
+      - name: contact_intro
+        label: Contact page text
+        type: text
+      - name: email
+        label: Email address
+        type: string
+      - name: instagram
+        label: Instagram handle
+        type: string
+        description: Without the @, for example studio.sena
